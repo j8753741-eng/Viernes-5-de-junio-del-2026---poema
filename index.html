@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIERNES 5 DE JUNIO DEL 2026 - POEMA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    overflow-x:hidden;
+
+    background:
+    radial-gradient(circle at top, rgba(255,255,255,0.08), transparent 35%),
+    radial-gradient(circle at bottom, rgba(255,192,203,0.08), transparent 40%),
+    linear-gradient(180deg,#080814,#11112a,#191938,#0d0d1d);
+
+    font-family:'Cormorant Garamond', serif;
+    color:#fff;
+}
+
+/* ESTRELLAS */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background-image:
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,.9), transparent),
+    radial-gradient(2px 2px at 70% 20%, rgba(255,255,255,.8), transparent),
+    radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,.9), transparent),
+    radial-gradient(2px 2px at 85% 60%, rgba(255,255,255,.8), transparent),
+    radial-gradient(1px 1px at 10% 75%, rgba(255,255,255,.8), transparent),
+    radial-gradient(2px 2px at 55% 40%, rgba(255,255,255,.9), transparent);
+    animation:twinkle 6s infinite alternate;
+    pointer-events:none;
+}
+
+@keyframes twinkle{
+    from{opacity:.4;}
+    to{opacity:1;}
+}
+
+.poem-container{
+    width:100%;
+    max-width:900px;
+
+    background:rgba(255,255,255,0.06);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,0.15);
+
+    border-radius:35px;
+
+    padding:70px;
+
+    position:relative;
+
+    box-shadow:
+    0 0 50px rgba(255,182,193,.15),
+    0 0 100px rgba(255,255,255,.05);
+}
+
+/* ORNAMENTOS */
+
+.poem-container::before,
+.poem-container::after{
+    content:"✦";
+    position:absolute;
+    font-size:60px;
+    color:rgba(255,220,230,.35);
+}
+
+.poem-container::before{
+    top:25px;
+    left:35px;
+}
+
+.poem-container::after{
+    bottom:25px;
+    right:35px;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h1{
+    font-family:'Great Vibes', cursive;
+    font-size:4.3rem;
+    font-weight:normal;
+    color:#ffdce8;
+    text-shadow:
+    0 0 15px rgba(255,210,230,.5),
+    0 0 30px rgba(255,210,230,.25);
+}
+
+.divider{
+    width:180px;
+    height:1px;
+    background:linear-gradient(to right,transparent,#ffdce8,transparent);
+    margin:20px auto;
+}
+
+.poem{
+    font-size:1.6rem;
+    line-height:1.85;
+    text-align:center;
+    color:#fdf6f8;
+}
+
+.stanza{
+    margin-bottom:28px;
+}
+
+.signature{
+    margin-top:50px;
+    text-align:center;
+    font-family:'Great Vibes', cursive;
+    font-size:2.4rem;
+    color:#ffd7e6;
+}
+
+.heart{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    font-size:2rem;
+    animation:pulse 3s infinite;
+}
+
+@keyframes pulse{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.15);}
+    100%{transform:scale(1);}
+}
+
+@media(max-width:768px){
+
+    .poem-container{
+        padding:40px 28px;
+    }
+
+    .title h1{
+        font-size:3rem;
+    }
+
+    .poem{
+        font-size:1.3rem;
+        line-height:1.8;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="poem-container">
+
+    <div class="title">
+        <h1>Mi Universo Tiene Tu Nombre</h1>
+        <div class="divider"></div>
+    </div>
+
+    <div class="poem">
+
+        <div class="stanza">
+            Esta noche de viernes, 5 de junio de 2026,<br>
+            cuando el cielo parece infinito<br>
+            y las estrellas brillan como si quisieran contar historias de amor,<br>
+            mi corazón vuelve a detenerse un instante para admirarte,<br>
+            porque incluso después de todo este tiempo,<br>
+            sigues siendo el milagro más hermoso que ha llegado a mi vida.
+        </div>
+
+        <div class="stanza">
+            Hay algo en ti que ninguna palabra puede describir por completo.<br>
+            Es una mezcla perfecta entre ternura y belleza,<br>
+            entre dulzura y fuerza,<br>
+            entre la calma que necesito y la pasión que enciende mi alma.<br>
+            Y mientras la noche avanza lentamente,<br>
+            me descubro pensando en ti una vez más,<br>
+            como si cada pensamiento tuviera tu nombre grabado para siempre.
+        </div>
+
+        <div class="stanza">
+            Hoy me siento un poco cansado,<br>
+            pero basta imaginar tu sonrisa para que todo cambie.<br>
+            Basta recordar tus ojos para encontrar tranquilidad.<br>
+            Basta pensar en tu voz para sentir que cualquier dificultad vale la pena.<br>
+            Porque tienes ese poder tan especial de iluminar mis días<br>
+            y de convertir los momentos más simples en recuerdos inolvidables.
+        </div>
+
+        <div class="stanza">
+            Si pudiera tomar todas las estrellas que adornan esta noche,<br>
+            las reuniría en un solo lugar para regalártelas.<br>
+            Si pudiera capturar la luz de la luna,<br>
+            la colocaría suavemente sobre tu camino para que jamás caminaras en la oscuridad.<br>
+            Y si pudiera pedir un único deseo al universo,<br>
+            sería seguir compartiendo mi vida contigo,<br>
+            seguir descubriendo tu belleza cada día<br>
+            y seguir amándote con la misma intensidad con la que mi corazón te ama ahora.
+        </div>
+
+        <div class="stanza">
+            Porque no eres solamente la mujer que amo.<br>
+            Eres mi pensamiento favorito,<br>
+            mi emoción más sincera,<br>
+            mi sueño más hermoso<br>
+            y la razón por la que tantas veces sonrío sin darme cuenta.
+        </div>
+
+        <div class="stanza">
+            Y mientras esta noche abraza al mundo con su silencio,<br>
+            quiero que sepas algo que nace desde lo más profundo de mi alma:<br>
+            te amo con una fuerza imposible de medir,<br>
+            con una pasión que crece cada día,<br>
+            con una ternura que jamás se agotará<br>
+            y con una certeza absoluta de que, entre todas las maravillas que existen en el universo,<br>
+            tú seguirás siendo siempre la más hermosa de todas.
+        </div>
+
+        <div class="stanza">
+            Esta noche, mañana y en cada día que venga,<br>
+            mi corazón seguirá encontrando el camino hacia ti,<br>
+            porque eres el destino más bello que pudo tocar mi vida,<br>
+            el amor que convirtió mis sentimientos en eternidad,<br>
+            y la mujer maravillosa a quien amaré con todo lo que soy,<br>
+            con todo lo que tengo<br>
+            y con todo lo que seré.
+        </div>
+
+    </div>
+
+    <div class="signature">
+        Para la dueña de mi universo ✨
+    </div>
+
+    <span class="heart">💖</span>
+
+</div>
+
+</body>
+</html>
